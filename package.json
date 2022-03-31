@@ -2,7 +2,7 @@
 	"name": "spotify-api-app",
 	"description": "This Express Server is only for retrieving data from My Data from Spotify. Deployed in Heroku",
 	"version": "1.0.0",
-	"repository": "https://github.com/mdirshaddev/spotify-server-app.git",
+	"repository": "https://github.com/mdirshaddev/spotify-api-app.git",
 	"author": {
 		"name": "Md Irshad",
 		"url": "https://mdirshaddev.github.io",
