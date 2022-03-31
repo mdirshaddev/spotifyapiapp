@@ -13,6 +13,10 @@ app.get('/', async (req: Request, res: Response): Promise<void> => {
 	res.status(200).json({ message: 'Heroku and Express is up and running' });
 });
 
+console.log('Refresh Token ', process.env.SPOTIFY_REFRESH_TOKEN);
+console.log('Client Secret ', process.env.SPOTIFY_CLIENT_SECRET_TOKEN);
+console.log('Client ID ', process.env.SPOTIFY_CLIENT_ID);
+
 app.use('/spotify', SpotifyRoute);
 
 app.listen(process.env.PORT, (): void => {

@@ -11,7 +11,7 @@
 	"scripts": {
 		"dev": "nodemon",
 		"build": "tsc",
-		"start": "node -r ts-path-mapping build",
+		"start": "DEBUG=* node -r ts-path-mapping build",
 		"check-format": "prettier -c .",
 		"check-lint": "eslint .",
 		"check-types": "tsc --noEmit"

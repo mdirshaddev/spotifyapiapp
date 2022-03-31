@@ -7,7 +7,7 @@ const GetCurrentPlaying = async (
 	res: Response
 ): Promise<void | unknown> => {
 	const response = await getNowPlaying();
-	console.log(response.data.item?.uri);
+	console.log('Response ', response.data.item?.uri);
 
 	if (
 		response.status === 204 ||
