@@ -5,5 +5,3 @@
 tasks:
   - init: yarn install && yarn build
     command: yarn run start
-
-

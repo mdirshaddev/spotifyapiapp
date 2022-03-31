@@ -17,7 +17,9 @@
 		"resolveJsonModule": true,
 		"baseUrl": ".",
 		"paths": {
-			"routes/*": ["./src/routes/*"]
+			"routes/*": ["./src/routes/*"],
+			"utilities/*": ["./src/utilities/*"],
+			"controllers/*": ["./src/controllers/*"]
 		}
 	},
 	"include": ["src/**/*.ts", "src/**/*.d.ts"],

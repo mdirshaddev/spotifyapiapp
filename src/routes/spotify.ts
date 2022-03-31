@@ -1,10 +1,8 @@
-import type { Request, Response } from 'express';
 import { Router } from 'express';
+import { GetCurrentPlaying } from 'controllers/GetCurrentPlaying';
 
 const router = Router();
 
-router.get('/', async (req: Request, res: Response): Promise<void> => {
-	res.status(200).json({ message: 'Spotify Data Current Playing' });
-});
+router.get('/', GetCurrentPlaying);
 
 export default router;
