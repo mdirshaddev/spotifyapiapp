@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"lib": ["ES2017", "esnext.asynciterable"],
+		"skipLibCheck": true,
+		"moduleResolution": "node",
+		"removeComments": true,
+		"target": "ES2017",
+		"outDir": "build",
+		"module": "CommonJS",
+		"rootDir": "src",
+		"importHelpers": true,
+		"strict": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"allowJs": false,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"routes/*": ["./src/routes/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts"],
+	"exclude": ["node_modules"],
+	"ts-node": {
+		"transpileOnly": true
+	}
+}

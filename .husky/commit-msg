@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Linting git commit message efore checking the message t e saved
+
+npx --no -- commitlint --edit 

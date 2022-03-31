@@ -1,0 +1,7 @@
+{
+	"editor.tabSize": 2,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"files.eol": "\n",
+	"eslint.enable": true,
+	"prettier.enable": true
+}

@@ -1,0 +1,5 @@
+{
+	"watch": ["src"],
+	"exec": "ts-node --project tsconfig.json -r ts-path-mapping/register -r dotenv/config src/index.ts",
+	"ext": "ts"
+}
