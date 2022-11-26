@@ -22,7 +22,7 @@
 			"controllers/*": ["./src/controllers/*"]
 		}
 	},
-	"include": ["src/**/*.ts", "src/**/*.d.ts"],
+	"include": ["src/**/*.ts", "src/**/*.d.ts", "index.ts"],
 	"exclude": ["node_modules"],
 	"ts-node": {
 		"transpileOnly": true
