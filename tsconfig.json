@@ -5,7 +5,7 @@
 		"moduleResolution": "node",
 		"removeComments": true,
 		"target": "ES2017",
-		"outDir": "build",
+		"outDir": "dist",
 		"module": "CommonJS",
 		"rootDir": "src",
 		"importHelpers": true,
