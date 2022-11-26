@@ -1,3 +1,4 @@
+import { Buffer } from 'node:buffer';
 import axios from 'axios';
 
 const {
@@ -8,7 +9,6 @@ const {
 
 const token = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 
-console.log(token);
 const getAccessToken = async (): Promise<string | unknown> => {
 	try {
 		const res = await axios.post<{ access_token: string }>(
